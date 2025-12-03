@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Creative Studio | Professional Editing Services</title>
+    <meta name="description" content="Professional editing services for video, thumbnails, websites, and more. Elevate your digital content with Creative Studio.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header>
+        <div class="container">
+            <a href="index.html" class="logo">Creative <span>Studio</span></a>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="pages/services.html">Services</a></li>
+                    <li><a href="pages/pricing.html">Pricing</a></li>
+                    <li><a href="pages/aboutus.html">About Us</a></li>
+                    <li><a href="pages/ai_sol.html">AI Solutions</a></li>
+                </ul>
+            </nav>
+            <div class="header-buttons">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBTX7OmWAA4dw84xyrVwU1ynMNZGEjDlxX8quCnm5VogV7gw/viewform?usp=sf_link" target="_blank" class="btn btn-primary">Join Us</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content fade-in">
+            <h1>We Provide <br><span class="typed-text"></span></h1>
+            <p>Your one-stop solution for professional editing services, including videos, thumbnails, websites, and more!</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">Explore Services</a>
+                <a href="pages/contact.html" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Our Services</h2>
+            <p class="section-subtitle fade-in">We offer a wide range of digital services to help you grow your brand.</p>
+            
+            <div class="grid">
+                <div class="card fade-in">
+                    <i class="fa-solid fa-video"></i>
+                    <h3>Video Editing</h3>
+                    <p>Professional video editing for YouTube, social media, and corporate events. We make your footage look cinematic.</p>
+                </div>
+                <div class="card fade-in">
+                    <i class="fa-solid fa-image"></i>
+                    <h3>Thumbnail Design</h3>
+                    <p>Click-worthy thumbnails that increase your CTR. Custom designs tailored to your niche.</p>
+                </div>
+                <div class="card fade-in">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Responsive and modern websites built with the latest technologies. From landing pages to full web apps.</p>
+                </div>
+                <a href="pages/ai_sol.html" class="card fade-in" style="display: block; text-decoration: none;">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                    <h3>AI Solutions</h3>
+                    <p>Leveraging AI for image enhancement, background removal, and content generation.</p>
+                </a>
+                <a href="https://prompt.creanext.studio" target="_blank" class="card fade-in" style="display: block; text-decoration: none; border: 1px solid var(--accent-color);">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h3>Prompt Generator</h3>
+                    <p>Generate perfect AI prompts for Midjourney, ChatGPT, and more. <span style="color: var(--accent-color); font-weight: bold;">NEW</span></p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Featured Work</h2>
+            <p class="section-subtitle fade-in">Check out some of our recent projects.</p>
+            
+            <div class="gallery-container fade-in">
+                <div class="video-card">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/fav.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-info">
+                        <h4>Stunning Visuals</h4>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/favtext.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-info">
+                        <h4>Creative Text Effects</h4>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/finalvid02.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-info">
+                        <h4>Advanced Editing</h4>
+                    </div>
+                </div>
+                <div class="video-card">
+                    <video autoplay muted loop playsinline>
+                        <source src="assets/videos/video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-info">
+                        <h4>Professional Output</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title fade-in">Simple Pricing</h2>
+            <p class="section-subtitle fade-in">Choose the plan that fits your needs.</p>
+            
+            <div class="grid">
+                <div class="pricing-card fade-in">
+                    <h3>Basic</h3>
+                    <div class="price">₹1,499<span>/project</span></div>
+                    <ul class="features-list">
+                        <li>Basic Video Editing (Up to 5 mins)</li>
+                        <li>1 Revision</li>
+                        <li>Standard Delivery (48 hrs)</li>
+                    </ul>
+                    <a href="pages/create_request.html" class="btn btn-secondary">Choose Basic</a>
+                </div>
+                <div class="pricing-card popular fade-in">
+                    <h3>Pro</h3>
+                    <div class="price">₹5,999<span>/project</span></div>
+                    <ul class="features-list">
+                        <li>Advanced Editing (Up to 15 mins)</li>
+                        <li>Thumbnail Included</li>
+                        <li>3 Revisions</li>
+                        <li>Fast Delivery (24 hrs)</li>
+                    </ul>
+                    <a href="pages/create_request.html" class="btn btn-primary">Choose Pro</a>
+                </div>
+                <div class="pricing-card fade-in">
+                    <h3>Enterprise</h3>
+                    <div class="price">Custom</div>
+                    <ul class="features-list">
+                        <li>Full Production / Web Dev</li>
+                        <li>Dedicated Manager</li>
+                        <li>Unlimited Revisions</li>
+                        <li>Priority Support</li>
+                    </ul>
+                    <a href="pages/create_request.html" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>Creative Studio</h4>
+                <p>Delivering affordable and creative services to elevate your digital content. Let's make your ideas shine!</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/services.html">Services</a></li>
+                    <li><a href="pages/pricing.html">Pricing</a></li>
+                    <li><a href="pages/aboutus.html">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Creative Studio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="assets/js/auth-handler.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
